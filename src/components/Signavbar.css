@@ -1,0 +1,13 @@
+.Headnavbar{
+    width:100%;
+    height:100px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    /* justify-content:center; */
+     margin-bottom: 0;
+}
+.logomain{
+    height:80%;
+    padding-top:1.5%  ;
+    padding-left: 15%;
+}

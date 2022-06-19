@@ -1,0 +1,81 @@
+body{
+    background-color: whitesmoke;
+}
+.signup{
+    width: 30%;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+    /* justify-content: center; */
+
+}
+.SigninRegister{
+    display: flex;
+    
+    
+     gap: 35px;
+     text-align: center;
+     margin-left: 26%;
+    padding-top: 20px;
+    font-size: 21px;
+}
+#Email,#Password{
+   padding: 12px 80px;
+   border-radius: 5px;
+   /* border:1.5px */
+}
+.flex1{
+    display:flex;
+    margin-left:9%;
+    /* justify-content:center; */
+    text-align: center;
+    gap: 11px;
+    font-size: 15px;
+     
+}
+.flex1>div{
+     margin-top: 2px;
+     
+}
+.flex2>div{
+    margin-top: 2px;
+    
+}
+.flex2{
+    display:flex;
+    margin-left: 9%;
+    /* justify-content:center;
+    text-align: center; */
+    gap: 8px;
+    font-size: 15px;
+}
+
+#box1{
+    height:18px;
+    width:18px;
+}
+#box2{
+    height:18px;
+    width:18px;
+}
+.underline{
+    text-decoration: underline;
+}
+.underline:hover{
+    color:#ff6d26;
+}
+.joinUp{
+    padding :2% 21%;
+    background-color:#ff6d26;
+    color:white;
+    border:0px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#icon{
+    display:flex;
+    justify-content: center;
+    gap: 10%;
+}
+ 
