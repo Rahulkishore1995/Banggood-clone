@@ -2,8 +2,6 @@ import React from 'react';
 import Product from './Product';
 import styled from 'styled-components';
 
-
-
 const ProductContainer=styled.div`
 display:grid;
 grid-template-columns:repeat(4,1fr);
@@ -12,10 +10,13 @@ width:100%;
 margin:auto;
 grid-gap:10px;
 `;
-const AllProducts = (item) => {
+const AllProducts = (props) => {
+  console.log(props)
   return (
     <ProductContainer >
-        {item.props.map(item=>
+        {props.props.filter ((el)=>{
+          return el.type=="m"
+        }) .map(item=>
           <Product {...item}/>
         )}
     </ProductContainer>

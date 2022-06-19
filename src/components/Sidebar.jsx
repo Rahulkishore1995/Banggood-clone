@@ -3,16 +3,14 @@ import styles from './styles.module.css';
 import { useNavigate,Link, Navigate } from 'react-router-dom';
 
 const Sidebar = () => {
-  // const navigate=useNavigate();
-  // const handleClick=(route)=>{
-  //   navigate(route)
-  // }
+   
+  const navigate= useNavigate()
   return (
     <div>
         <ul className={styles.Ul}>
             <li >Women's Clothing</li>
             <li 
-            // onClick={()=>handleClick("/Mens")}
+            onClick={()=>navigate("/mens")}
             >Men's Clothing</li>
             <li>Phones & Accessories</li>
             <li>Electronics</li>

@@ -28,11 +28,11 @@ const Cards = (props) => {
         <Pic src={props.url} alt="" />
         <h6>₹{props.price}</h6>
         <Li className={styles.Li}>{props.title}</Li>
-        <button style={{background:"rgb(15, 236, 252)",color:"white",borderRadius:'5px',
+        {/* <button style={{background:"rgb(15, 236, 252)",color:"white",borderRadius:'5px',
         border:'0px',
         }}
         onClick={()=>navigate('/payement')}
-        >Buy Now</button>
+        >Buy Now</button> */}
 
     </Part>
   )

@@ -1,5 +1,7 @@
 import { useState } from "react";
+import {Mens} from "./components/Mens";
 import { RouterPage } from "./Routes/Router";
+
  
 
 import "./App.css";
@@ -10,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <RouterPage />
+      {/* <Mens/> */}
     </div>
   );
 }
